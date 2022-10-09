@@ -22,8 +22,6 @@ public class Peminjaman {
 
     private Date tglkembali;
 
-   private List<PeminjamanDetail> peminjamanDetailList;
-
     @OneToMany(mappedBy = "peminjaman")
     private List<Pengembalian> pengembalianList;
 

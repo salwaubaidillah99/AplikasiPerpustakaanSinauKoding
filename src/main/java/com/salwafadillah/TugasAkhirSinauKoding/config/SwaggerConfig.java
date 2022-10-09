@@ -29,8 +29,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo(){
         return new ApiInfo(
-                "Tugas Akhir Sinau Koding 22",
-                "Api Documentation for salwa ",
+                "Tugas Akhir Perpustakaan",
+                "Api Documentation for Sinau Koding 22",
                 "1.0",
                 "",
                 contact(),
@@ -41,7 +41,7 @@ public class SwaggerConfig {
     }
 
     private Contact contact(){
-        return new Contact("Salwa Fadillah", "", "salwafadillah3@gmail.com");
+        return new Contact("Salwa fadillah", "", "salwafadillah@gmail.com");
     }
 
     private SecurityScheme securityScheme(){
